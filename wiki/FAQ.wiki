@@ -16,6 +16,7 @@ No. All USB devices from C-Media are incompatible, too.
 S/PDIF is basically a standard for transmitting audio signals digitally without any loss. There are basically two kinds of audio formats which can be sent over S/PDIF:
   * Stereo, 16 bit: the vast majority of audio CDs use this format and subsequently MP3s/FLACs/... are decoded to this format. A limitation of the S/PDIF is that it can only carry two uncompressed PCM audio channels.
   * Dolby (AC3)/dts: basically compressed/encoded multi-channel audio. Such signals need to be decoded by your receiver/amplifier. This kind of audio data can be found on many DVDs and subsequently DVD rips, some TV transmissions and even CDs (dts CD). Multi-channel sound from games is NOT encoded to this format - the only option to output the sound is to use the analog ports.
+
 The S/PDIF signal can be transmitted optically through TOSLink (LED sender -> plastic optical fiber -> receiver) and/or electrically through RCA/coaxial cable. Optical transmission has the advantage that it's galvanically isolated and that it isn't susceptible to crosstalk (noise induction from other lines), so it's preferable over a coaxial cable in most cases.
 
 ==What's the recommended setting for the speaker configuration?==
