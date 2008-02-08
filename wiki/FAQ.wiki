@@ -30,12 +30,12 @@ Dolby Digital Live is a marketing term coined for the capability to encode multi
 There are a handful of cmedia chips which support DDL with the help of the official drivers, but unlike NVidia's Soundstorm, it's entirely software based - there is no hardware acceleration. Consequently there's no implementation for Dolby Digtal Live in this driver.
 
 ==How do I permanently disable the enforced driver signing in 64 bit edition of Vista?==
-Open up an elevated command shell (Start -> enter 'Command Prompt' in the 'Search Search' box -> right-click 'Command Prompt' and select 'Run as Administrator') and type in following:
+Open up an elevated command shell (Start -> enter 'Command Prompt' in the 'Search Search' box -> right-click [http://cmediadrivers.googlepages.com/cmd-vista.jpg 'Command Prompt' and select 'Run as Administrator']) and type in following:
 {{{
 bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
 }}}
 Press enter and wait for the confirmation. The driver can be installed after a reboot.
-Please note that the all updates which replace ntoskrnl.exe (KB932596, KB938979, KB938194, KB941649, KB943078) for the 64 bit edition of Vista break this switch.
+Please note that the all updates which replace ntoskrnl.exe ([http://support.microsoft.com/kb/932596 KB932596], [http://support.microsoft.com/kb/938979 KB938979], [http://support.microsoft.com/kb/938194 KB938194], [http://support.microsoft.com/kb/941649 KB941649], [http://support.microsoft.com/kb/943078 KB943078]) for the 64 bit edition of Vista [http://cmediadrivers.googlepages.com/gestapo.png break this switch].
 
 ==I tried to load the driver, but my system crashed. How can I recover?==
 There are two possible causes: 
@@ -45,15 +45,15 @@ There are two possible causes:
 
 ==How do I enable dts/AC3 passthrough in WinDVD / PowerDVD / Media Player Classic / AC3Filter / ffdshow / vlc?==
 ===WinDVD===
-Start WinDVD, right-click somewhere in the video window and select 'Setup...'. Then go to the audio tab and select "Digital S/PDIF Out to External Processor".
+Start WinDVD, right-click somewhere in the video window and select 'Setup...'. Then go to the [http://cmediadrivers.googlepages.com/windvd.png audio tab] and select "Digital S/PDIF Out to External Processor".
 ===PowerDVD===
-Start PowerDVD, right-click somewhere in the video window and select 'Configuration...'. Then go to the audio tab and select the "Use SPDIF" entry from the 'Speaker Environment' box.
+Start PowerDVD, right-click somewhere in the video window and select 'Configuration...'. Then go to the [http://cmediadrivers.googlepages.com/powerdvd.png audio tab] and select the "Use SPDIF" entry from the 'Speaker Environment' box.
 ===Media Player Classic===
-Open Media Player Classic and open the 'Options' window ('View' -> 'Options' or just press the O key). Select the 'Internal Filters' node from the tree on the left and double click the 'AC3' entry in the 'Transform Filters' list. Choose "SPDIF" in the window and click "OK".
+Open Media Player Classic and open the 'Options' window ('View' -> 'Options' or just press the O key). Select the 'Internal Filters' node from the tree on the left and double click the 'AC3' entry in the 'Transform Filters' list. Choose "SPDIF" in the [http://cmediadrivers.googlepages.com/mplayerc.png window] and click "OK".
 ===AC3Filter===
 Click Start, Programs, AC3Filter and then "AC3Filter Config". Check the "Use SPDIF" box.
 ===ffdshow===
-Install the latest version of ffdshow. Click Start, Programs, ffdshow, "Audio decoder configuration". Click "codecs" in the left panel and select "S/PDIF" from the drop down menus both for AC3 and dts.
+Install the latest version of ffdshow. Click Start, Programs, ffdshow, "Audio decoder configuration". Click "codecs" in the left panel and [http://cmediadrivers.googlepages.com/ffdshow.png select "S/PDIF"] from the drop down menus both for AC3 and dts.
 ===vlc===
 The current version of vlc contains a bug that results in stuttering audio playback when dts/AC3 passthrough is enabled.
 
@@ -61,10 +61,10 @@ The current version of vlc contains a bug that results in stuttering audio playb
 If you are using the WaveRT version of the driver, it should work out of the box with the standard x86 codecs. If you're using the non-WaveRT version, you need to upgrade to the x64 versions of both the player software and the codecs. When using x86 codecs / software, there are problems with passthrough which are caused by a bug in Vista's x86 compatibility layer. [http://sourceforge.net/project/showfiles.php?group_id=173941&package_id=199416&release_id=569930 Here] are x64 builds of ffdshow, and x64 binaries for Media Player Classic are available [http://tibrium.neuf.fr/ here].
 
 ==How do I check if the driver has been installed correctly?==
-Open the device manager (Start -> Run -> `devmgmt.msc`) and open the 'Sound, video and game controllers' leaf. If the driver has been loaded successfully, there should be a node with exactly the name "CMI8738/8768 Wave Audio Device". Also, the 'CMI8738/8768 Control Panel' should load and display version information in the 'About'-tab.
+Open the device manager (Start -> Run -> `devmgmt.msc`) and open the 'Sound, video and game controllers' leaf. If the driver has been loaded successfully, [http://cmediadrivers.googlepages.com/devmgmt.png there should be a node] with exactly the name "CMI8738/8768 Wave Audio Device". Also, the 'CMI8738/8768 Control Panel' should load and display version information in the 'About'-tab.
 
 ==Do I need the Windows Driver Development Kit (WinDDK) for running this driver?==
-No. Precompiled binaries are available in all flavors on the front page. 
+No. Precompiled binaries are available in all flavors on the [http://code.google.com/p/cmediadrivers/downloads/list download page]. 
 However, if you plan to modify the source code and/or to recompile the binaries from the source, you need the WinDDK - it contains all the vital headers, libraries and a compiler for generating proper `sys` files.
 
 ==What are the command line options for `cmicontrol.exe`?==
