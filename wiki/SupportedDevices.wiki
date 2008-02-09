@@ -1,4 +1,4 @@
-#summary List of supported devices (incomplete)
+#summary Incomplete list of supported devices
 #labels Featured
 
 = Supported Devices =
