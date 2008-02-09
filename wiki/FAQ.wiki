@@ -7,7 +7,9 @@ If you're a gamer, you won't be a able to enable [http://en.wikipedia.org/wiki/E
 
 ==Why should I use this driver?==
 If you have an amplifier/receiver with digital inputs, it might be a good solution.
+
 Nowadays most consumer market sound devices (Creative, AC97, HDA) alter the sound in one way or the other and thus induce a significant loss of quality - this renders them almost completely unusable for audiophile Hi-Fi enthusiasts. Not so with this driver: lossless bitperfect playback over the external digital ports is fully supported. Also, the sample rate is dynamically adjusted to the current playback source. This may sound simple, but even lots of "professional grade" soundcards lack such capabilities.
+
 This driver is completely bloat-free (no annoying tray icon), small (100kB), fast (due to the lack of sound processing) and stable. Unlike the official drivers, it supports true 16 bit output and dts/AC3 passthrough. Also, it runs on all the major Windows flavors (including the Media Center Edition/MCE and 64 bit systems) and the source code is fully available. Thus it's especially well suited for HTPCs.
 
 ==Is the driver compatible with AC97/HDA chips such as C-Media 9738/9739/9880L?==
@@ -21,12 +23,13 @@ S/PDIF is basically a standard for transmitting audio signals digitally without 
 The S/PDIF signal can be transmitted optically through TOSLink (LED sender -> plastic optical fiber -> receiver) and/or electrically through RCA/coaxial cable. Optical transmission has the advantage that it's galvanically isolated and that it isn't susceptible to crosstalk (noise induction from other lines), so it's preferable over a coaxial cable in most cases.
 
 ==What's the recommended setting for the speaker configuration?==
-First of all, the capability to pass through a multi-channel AC3/dts signal is unaffected by this setting.
-In short, the "2.0 Stereo" setting is recommended assuming that the soundcard is digitally connected to the receiver/amplifier (TOSLink/coax cable).
+First of all, the capability to pass through a multi-channel AC3/dts signal is unaffected by this setting. In short, the "2.0 Stereo" setting is recommended assuming that the soundcard is digitally connected to the receiver/amplifier (TOSLink/coax cable).
+
 The driver model of Windows has unfortunately quite a few design flaws. A major one is that a driver has no way to determine whether an application wants to play a 5.1 wave sound (e.g. some game) or just plain stereo sound (e.g. WinAMP). If for example the speaker configuration is set to 5.1, all sources are considered to be 5.1 and the digital ports are turned off.
 
 ==What is Dolby Digital Live?==
 Dolby Digital Live is a marketing term coined for the capability to encode multi-channel audio data to AC3/dts on the fly. This is a pretty bad idea because there's quite a nasty quality loss in the process ([http://en.wikipedia.org/wiki/Transcoding transcoding] and pretty low bit rates), it costs a lot of CPU time (resulting in a significant frame rate drop) and it's bug ridden. 
+
 There are a handful of cmedia chips which support DDL with the help of the official drivers, but unlike NVidia's Soundstorm, it's entirely software based - there is no hardware acceleration. Consequently there's no implementation for Dolby Digtal Live in this driver.
 
 ==How do I permanently disable the enforced driver signing in 64 bit edition of Vista?==
