@@ -5,41 +5,29 @@
 _All the PCI cards listed below have digital ports (S/PDIF)_
 
 || *Vendor* || *Model* || *Optical S/PDIF (TOSLink)* || *Electrical S/PDIF (Coax)* || *Low Profile* || *Remarks* ||
-
 || [http://www.aopen.com.tw/ AOpen] || Cobra 5.1 Deluxe / Cobra AW 850Deluxe || Yes || Yes || No || ||
 || || Cobra AW 870LP || Yes || No || Yes || ||
-
 || [http://www.asound.com/ ASound] || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=154 A-51DG-LP] || Yes || No || Yes || ||
 || || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=158 A-71DG-LP] || Yes || No || Yes || ||
 || || [http://www.asound.com/ProductDetails.asp?ProductClass=32&id=157 A-8768-8C] || Yes || No || No || ||
 || || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=292 ASound A-8768-8C+] || Yes || No || No || 8768+ chip ||
-
 || [http://www.asus.com.tw Asus] || [http://www.asus.com/products/mb/socketa/a7v333-x/overview.htm A7V333-X] || No || Yes || No|| motherboard with a 8738 chip onboard ||
 || || P4B533 || No || Yes || No || motherboard with a 8738 chip onboard ||
-
-|| AudioExcel || AV511
-
-AuzenTech HDA X-Mystique 7.1 Gold
-
-Club 3D Theatron DD
-
-Diamond Xtreme Sound 7.1
-
-Dynex DX-SC71 7.1
-
-Formosa SC3000
-Formosa SC8768P 
-
-Hitpoint HCMI-5.1CH-KR 
-Hitpoint HCMI-5.1CH-M1 (low profile)
-Hitpoint HCMI-5.1CH-M2
-Hitpoint HCMI-5.1CH-M3
-Hitpoint HCMI-5.1CH-ML2
-Hitpoint HCMI-7.1CH
-
-HT Omega Striker 7.1
-
-InnoAX Audio Extreme 5.1 
+|| AudioExcel || AV511 || No || Yes || No || ||
+|| [http://www.auzentech.com/ AuzenTech] || [http://www.auzentech.com/site/products/x-mystique.php HDA X-Mystique 7.1 Gold] || Yes || Yes || No || 8768+ chip; heavily overpriced ||
+|| [http://www.club-3d.nl/ Club 3D] || [http://www.club3d.nl/index.php/products/theatron/item/14 Theatron DD] || Yes || Yes || No || 8768+ chip ||
+|| [http://www.diamondmm.com Diamond] || [http://www.diamondmm.com/XS71DDL.php Xtreme Sound 7.1] || Yes || No || No || 8768+ chip ||
+|| Dynex || DX-SC71 7.1 || Yes || No || No || ||
+|| [http://formosa21.manufacturer.globalsources.com/si/6008822424696/Homepage.htm Formosa] || [http://formosa21.manufacturer.globalsources.com/si/6008822424696/pdtl/Sound-card/1000776541/5.1-Channel-Sound-Cards.htm SC3000] || Yes || Yes || No || ||
+|| || [http://formosa21.manufacturer.globalsources.com/si/6008822424696/ProductDetail/product_id-1000776548/action-GetProduct.htm SC8768P] || Yes || No || No || 8768+ chip ||
+|| [http://www.hitpoint.com.tw/ Hitpoint] || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-kr.htm HCMI-5.1CH-KR] || Yes || No || No || ||
+|| || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-m1.htm HCMI-5.1CH-M1] || Yes || No || Yes || ||
+|| || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-m2.htm HCMI-5.1CH-M2] || Yes || No || Yes || regular sized bracket ||
+|| || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-m3.htm HCMI-5.1CH-M3] || Yes || No || Yes || regular sized bracket ||
+|| || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-of.htm Hitpoint HCMI-5.1CH-ML2] || Yes || Yes || No || Additional bracket for digital ports ||
+|| || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-71ch.htm Hitpoint HCMI-7.1CH] || No || Yes || No || ||
+|| [http://www.htomega.com/ HT Omega] || [http://www.htomega.com/striker.html Striker 7.1] || Yes || Yes || No || 8768+ chip; overpriced ||
+|| [http://www.ivmm.com/index.htm InnoAX] || [http://www.ivmm.com/innoax/products/audio_extreme.htm Audio Extreme 5.1] || Yes || Yes || No || Additional bracket for digital ports ||
 
 Leadtek Winfast 6XSound 
 
