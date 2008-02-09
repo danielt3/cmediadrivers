@@ -7,7 +7,7 @@ _All the PCI cards listed below have digital ports (S/PDIF)_
 
 || *Vendor* || *Model* || *Optical S/PDIF (TOSLink)* || *Electrical S/PDIF (Coax)* || *Low Profile* || *Remarks* ||
 || [http://www.aopen.com.tw/ AOpen] || Cobra 5.1 Deluxe / Cobra AW 850Deluxe || Yes || Yes || No || Additional bracket for digital ports ||
-|| || Cobra AW 870LP || Yes || No || Yes || ||
+|| || Cobra AW 870LP || Yes || No || Yes || Regular sized bracket ||
 || [http://www.asound.com/ ASound] || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=154 A-51DG-LP] || Yes || No || Yes || ||
 || || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=158 A-71DG-LP] || Yes || No || Yes || ||
 || || [http://www.asound.com/ProductDetails.asp?ProductClass=32&id=157 A-8768-8C] || Yes || No || No || ||
