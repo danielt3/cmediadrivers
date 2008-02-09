@@ -33,7 +33,7 @@ _All the PCI cards listed below have digital ports (S/PDIF)_
 || [http://www.m-audio.com/ M-Audio/Midiman] || DiO 2448 || Yes || Yes || No || ||
 || [http://www.mediatek.com.tw/ Mediatek] || [http://www.mediatek.com.tw/eng/03_product/oemodm/sy-mx-6d/index.htm SY-MX-6D] || Yes || Yes || No || Additional bracket for digital ports ||
 || || [http://www.mediatek.com.tw/eng/03_product/oemodm/sy_8768/index.htm SY-8768] || Yes || No || No || ||
-|| [http://www.philips.com| Philips || [http://www.p4c.philips.com/cgi-bin/dcbint/cpindex.pl?scy=GB&slg=ENG&sct=SOUNDCARDS_SU_GB_CONSUMER&cat=PC_AUDIO_CA_GB_CONSUMER&session=20070501170850_62.214.235.54&grp=MONITORS_PC_PERIPHERALS_GR_GB_CONSUMER&ctn=PSC604/00&mid=Link_GetStarted&hlt=Link_GetStarted PSC604/00 (Dynamic Edge 4.1)] || No || Yes || No || ||
+|| [http://www.philips.com Philips] || [http://www.p4c.philips.com/cgi-bin/dcbint/cpindex.pl?scy=GB&slg=ENG&sct=SOUNDCARDS_SU_GB_CONSUMER&cat=PC_AUDIO_CA_GB_CONSUMER&session=20070501170850_62.214.235.54&grp=MONITORS_PC_PERIPHERALS_GR_GB_CONSUMER&ctn=PSC604/00&mid=Link_GetStarted&hlt=Link_GetStarted PSC604/00 (Dynamic Edge 4.1)] || No || Yes || No || ||
 || Qware || SC-100 || Yes || Yes || No || Additional bracket for digital ports ||
 || [http://www.siig.com/Default.aspx SIIG] || [http://www.siig.com/ViewProduct.aspx?pn=IC-710012 SoundWave 7.1 PCI (IC-710012)] || No || Yes || No || ||
 || [http://www.speed-link.de Speed-Link] || [http://www.speed-link.de/?p=3&cat=15&pid=3463&paus=1 SL-8870] || Yes || No || No || ||
