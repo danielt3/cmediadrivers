@@ -1,0 +1,86 @@
+#summary List of supported devices (incomplete)
+
+= Supported Devices =
+
+_All the PCI cards listed below have digital ports (S/PDIF)_
+
+|| *Vendor* || *Model* || *Optical S/PDIF (TOSLink)* || *Electrical S/PDIF (Coax)* || *Low Profile* || *Remarks* ||
+
+|| [http://www.aopen.com.tw/ AOpen] || Cobra 5.1 Deluxe / Cobra AW 850Deluxe || Yes || Yes || No || ||
+|| || Cobra AW 870LP || Yes || No || Yes || ||
+
+|| [http://www.asound.com/ ASound] || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=154 A-51DG-LP] || Yes || No || Yes || ||
+|| || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=158 A-71DG-LP] || Yes || No || Yes || ||
+|| || [http://www.asound.com/ProductDetails.asp?ProductClass=32&id=157 A-8768-8C] || Yes || No || No || ||
+|| || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=292 ASound A-8768-8C+] || Yes || No || No || 8768+ chip ||
+
+|| [http://www.asus.com.tw Asus] || [http://www.asus.com/products/mb/socketa/a7v333-x/overview.htm A7V333-X] || No || Yes || No|| motherboard with a 8738 chip onboard ||
+|| || P4B533 || No || Yes || No || motherboard with a 8738 chip onboard ||
+
+|| AudioExcel || AV511
+
+AuzenTech HDA X-Mystique 7.1 Gold
+
+Club 3D Theatron DD
+
+Diamond Xtreme Sound 7.1
+
+Dynex DX-SC71 7.1
+
+Formosa SC3000
+Formosa SC8768P 
+
+Hitpoint HCMI-5.1CH-KR 
+Hitpoint HCMI-5.1CH-M1 (low profile)
+Hitpoint HCMI-5.1CH-M2
+Hitpoint HCMI-5.1CH-M3
+Hitpoint HCMI-5.1CH-ML2
+Hitpoint HCMI-7.1CH
+
+HT Omega Striker 7.1
+
+InnoAX Audio Extreme 5.1 
+
+Leadtek Winfast 6XSound 
+
+M-Audio DiO 2448 
+
+Mediatek SY-MX-6D
+Mediatek SY-8768 
+
+Phillips PSC604/00 (Dynamic Edge 4.1)
+Phillips PSC605/00 (Sonic Edge 5.1)
+
+Qware SC-100
+
+SIIG SoundWave 7.1 PCI (IC-710012) 
+
+Speed-Link SL-8870 
+
+Sweex SC003
+Sweex SC005
+Sweex SC015
+
+Techsolo TC-B71 
+
+Terratec Aureon 5.1 Fun
+Terratec Aureon 5.1 PCI
+Terratec Aureon 7.1 PCI
+Trust SC-5200
+Trust SC-5250 (Sound Expert 514DX)
+Trust SC-7200 (Sound Expert 714DX)
+Trust SC-7600
+
+Turtle Beach Montego DDL 7.1
+Turtle Beach Riviera 5.1  
+
+Typhoon Acoustic Six 5+1 
+
+Ultron OctoSound 7.1
+
+Zoltrix Nightingale Pro 6 
+
+This list is far from being complete: there are literally hundreds of brands, and C-Media chips are very popular in the low cost sector. If you can't find your card in this list, but you are certain that it has a C-Media 8738 or 8768 chip, the driver will work. There's effectively just one reference hardware design in use by all the manufacturers - there are some minor deviations, but these have no effect on the core functionality of the driver.
+If you plan to buy such a card, make sure that there's a C-Media 8738 or 8768 chip on the board and that there are dedicated digital connectors. The standard version of these cards (without Dolby Live!) are widely available for roughly 15-20 USD/EUR (e.g. on eBay).
+
+If you are successfully using the driver with a soundcard which isn't listed here, please mail me the device name (e.g. Trust SC-5250), the operating system (e.g. Windows Vista Home Premium) and the device/vendor ID.
