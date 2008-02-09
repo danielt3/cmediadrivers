@@ -44,7 +44,7 @@ _All the PCI cards listed below have digital ports (S/PDIF)_
 || Techsolo || TC-B71 || Yes || No || No || ||
 || [http://en.terratec.net/ Terratec] || [http://sounden.terratec.net/modules.php?op=modload&name=News&file=article&sid=147 Aureon 5.1 Fun] || Yes || No || No || ||
 || || [http://sounden.terratec.net/modules.php?op=modload&name=News&file=article&sid=222 Aureon 5.1 PCI] || Yes || No || No || ||
-|| || [http://sounden.terratec.net/modules.php?op=modload&name=News&file=article&sid=237 Aureon 7.1 PCI] || Yes || No || No || 8768 chip ||
+|| || [http://sounden.terratec.net/modules.php?op=modload&name=News&file=article&sid=237 Aureon 7.1 PCI] || Yes || No || No || 8768+ chip ||
 || [http://www.trust.com Trust] || [http://www.trust.com/products/product_detail.aspx?item=12949 SC-5200] || No || Yes || No || ||
 || || [http://www.trust.com/products/product_detail.aspx?item=12950 SC-5250 (Sound Expert 514DX)] || Yes || Yes || No || Additional bracket for digital ports ||
 || || SC-7200 (Sound Expert 714DX) || No || Yes || No || ||
