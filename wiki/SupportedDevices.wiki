@@ -1,4 +1,5 @@
 #summary List of supported devices (incomplete)
+#labels Featured
 
 = Supported Devices =
 
@@ -54,7 +55,8 @@ _All the PCI cards listed below have digital ports (S/PDIF)_
 || [http://www.ultron.de/v2index.php?l=en Ultron] || [http://www.ultron.de/v2prod.php?WGType=Soundkarten&artnr=8035&l=en OctoSound 7.1] || Yes || No || No || ||
 || [http://www.z-cyber.net/ Z-Cyber/Zoltrix] || [http://www.z-cyber.net/Products/8738MX%2B.htm Nightingale Pro 6] || Yes || Yes || No || Additional bracket for digital ports ||
 
-This list is far from being complete: there are literally hundreds of brands, and C-Media chips are very popular in the low cost sector. If you can't find your card in this list, but you are certain that it has a C-Media 8738 or 8768 chip, the driver will work. There's effectively just one reference hardware design in use by all the manufacturers - there are some minor deviations, but these have no effect on the core functionality of the driver.
+*This list is far from being complete*: there are literally hundreds of brands, and C-Media chips are very popular in the low cost sector. _If you can't find your card in this list, but you are certain that it has a C-Media 8738 or 8768 chip, the driver will work._ There's effectively just one reference hardware design in use by all the manufacturers - there are some minor deviations, but these have no effect on the core functionality of the driver.
+
 If you plan to buy such a card, make sure that there's a C-Media 8738 or 8768 chip on the board and that there are dedicated digital connectors. The standard version of these cards (without Dolby Live!) are widely available for roughly 15-20 USD/EUR (e.g. on eBay).
 
 If you are successfully using the driver with a soundcard which isn't listed here, please mail me the device name (e.g. Trust SC-5250), the operating system (e.g. Windows Vista Home Premium) and the device/vendor ID.
