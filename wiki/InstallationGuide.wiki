@@ -13,8 +13,8 @@ http://cmediadrivers.googlepages.com/installer.png/installer-full.jpg
 
 You probably have to click away one of these annoying "unsigned drivers" dialogs:
 
-http://cmediadrivers.googlepages.com/image-7.png/image-7-full.jpg 
-http://cmediadrivers.googlepages.com/xp-image-8.png/xp-image-8-full.jpg
+[http://cmediadrivers.googlepages.com/image-7.png/image-7-full.jpg http://cmediadrivers.googlepages.com/image-7.png/image-7-medium.jpg]
+[http://cmediadrivers.googlepages.com/xp-image-8.png/xp-image-8-full.jpg http://cmediadrivers.googlepages.com/xp-image-8.png/xp-image-8-medium.jpg]
 
 If a reboot is required, you will be asked. After the installation is finished, it's a good time to get rid of the remnants of the official C-Media drivers, e.g. the memory eating mixer.exe in your Windows folder.
 
