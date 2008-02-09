@@ -5,8 +5,7 @@
 
 Download and unzip the archive containing the binaries to a folder of your choice. The files can be downloaded from [http://code.google.com/p/cmediadrivers/downloads/list this page].
   * The bin-x86.zip archive has the compiled binaries for regular x86 32 bit systems, and bin-x64.zip file contains the binaries for EM64T/AMD64 64 bit systems. 
-  * Only the non-WaveRT (bin-x86.zip / bin-x64.zip) versions are compatible with Windows XP/2k. See Features.
-
+  * Only the non-WaveRT (bin-x86.zip / bin-x64.zip) versions are compatible with Windows XP/2k.
 Make sure that your soundcard is detected by the system (item in the Device Manager). Browse to the folder which contains the unpacked driver files. Start the setup executable and click "Install Driver":
 
 http://cmediadrivers.googlepages.com/installer.png/installer-full.jpg
