@@ -111,7 +111,7 @@ If you know why this is happening or why the XP mixer tries to render the AC3 pi
   * recording mixer fix for XP
 
 ==0.9.4a==
-* .inf fix for the 64bit version (thanks, martin)
+  * .inf fix for the 64bit version (thanks, martin)
 
 ==0.9.4==
   * mixer settings and channel config saved and restored
