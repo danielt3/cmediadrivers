@@ -25,8 +25,8 @@ _All the PCI cards listed below have digital ports (S/PDIF)_
 || || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-m1.htm HCMI-5.1CH-M1] || Yes || No || Yes || ||
 || || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-m2.htm HCMI-5.1CH-M2] || Yes || No || Yes || Regular sized bracket ||
 || || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-m3.htm HCMI-5.1CH-M3] || Yes || No || Yes || Regular sized bracket ||
-|| || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-of.htm Hitpoint HCMI-5.1CH-ML2] || Yes || Yes || No || Additional bracket for digital ports ||
-|| || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-71ch.htm Hitpoint HCMI-7.1CH] || No || Yes || No || ||
+|| || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-51ch-of.htm HCMI-5.1CH-ML2] || Yes || Yes || No || Additional bracket for digital ports ||
+|| || [http://www.hitpoint.com.tw/computer/en/product/soundcard/cmedia/hcmi-71ch.htm HCMI-7.1CH] || No || Yes || No || ||
 || [http://www.htomega.com/ HT Omega] || [http://www.htomega.com/striker.html Striker 7.1] || Yes || Yes || No || 8768+ chip; overpriced ||
 || [http://www.ivmm.com/index.htm InnoAX] || [http://www.ivmm.com/innoax/products/audio_extreme.htm Audio Extreme 5.1] || Yes || Yes || No || Additional bracket for digital ports ||
 || Leadtek || Winfast 6XSound || Yes || Yes || No || Additional bracket for digital ports||
