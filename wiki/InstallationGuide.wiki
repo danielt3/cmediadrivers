@@ -31,4 +31,4 @@ Then open up the properties page of the SPDIF Interface and choose which audio f
 And you're done.
 
 ==Troubleshooting==
-If you run into problems, you might want to check out the manual installation guide for Windows XP / Windows Vista.
+If you run into problems, you might want to check out the manual installation guide for [http://cmediadrivers.googlepages.com/xpinstallation Windows XP] / [http://cmediadrivers.googlepages.com/vistainstallation Windows Vista].
