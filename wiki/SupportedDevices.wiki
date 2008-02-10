@@ -11,7 +11,7 @@ _All the PCI cards listed below have digital ports (S/PDIF)_
 || [http://www.asound.com/ ASound] || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=154 A-51DG-LP] || Yes || No || Yes || ||
 || || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=158 A-71DG-LP] || Yes || No || Yes || ||
 || || [http://www.asound.com/ProductDetails.asp?ProductClass=32&id=157 A-8768-8C] || Yes || No || No || ||
-|| || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=292 ASound A-8768-8C+] || Yes || No || No || 8768+ chip ||
+|| || [http://www.asound.com/ProductDetails.asp?ProductClass=32&ID=292 A-8768-8C+] || Yes || No || No || 8768+ chip ||
 || [http://www.asus.com.tw Asus] || [http://www.asus.com/products/mb/socketa/a7v333-x/overview.htm A7V333-X] || No || Yes || No|| Motherboard with a 8738 chip onboard ||
 || || P4B533 || No || Yes || No || Motherboard with a 8738 chip onboard ||
 || AudioExcel || AV511 || No || Yes || No || ||
