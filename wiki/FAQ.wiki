@@ -39,7 +39,7 @@ bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
 }}}
 Press enter and wait for the confirmation. The driver can be installed after a reboot.
 
-*Please note that the all updates which replace ntoskrnl.exe ([http://support.microsoft.com/kb/932596 KB932596], [http://support.microsoft.com/kb/938979 KB938979], [http://support.microsoft.com/kb/938194 KB938194], [http://support.microsoft.com/kb/941649 KB941649], [http://support.microsoft.com/kb/943078 KB943078]) for the 64 bit edition of Vista [http://cmediadrivers.googlepages.com/gestapo.png break this switch].*
+*Please note that the all updates which replace ntoskrnl.exe ([http://support.microsoft.com/kb/932596 KB932596], [http://support.microsoft.com/kb/938979 KB938979], [http://support.microsoft.com/kb/938194 KB938194], [http://support.microsoft.com/kb/941649 KB941649], [http://support.microsoft.com/kb/943078 KB943078]) for the 64 bit edition of Vista [http://cmediadrivers.googlepages.com/gestapo.png break this switch].* The only way to run the driver after installing these updates is by [http://www.security-hacks.com/2007/05/07/vista-disable-driver-signing-verification-in-64-bit pressing F8 during boot-up and disabling the enforced driver signing].
 
 ==I tried to load the driver, but my system crashed. How can I recover?==
 There are two possible causes: 
