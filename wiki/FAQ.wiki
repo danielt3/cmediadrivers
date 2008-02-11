@@ -64,6 +64,8 @@ The current version of vlc contains a bug that results in stuttering audio playb
 ==How do I enable dts/AC3 passthrough in Windows Vista x64?==
 If you are using the WaveRT version of the driver, it should work out of the box with the standard x86 codecs. If you're using the non-WaveRT version, you need to upgrade to the x64 versions of both the player software and the codecs. When using x86 codecs / software, there are problems with passthrough which are caused by a bug in Vista's x86 compatibility layer. [http://sourceforge.net/project/showfiles.php?group_id=173941&package_id=199416&release_id=569930 Here] are x64 builds of ffdshow, and x64 binaries for Media Player Classic are available [http://tibrium.neuf.fr/ here].
 
+_Update: This issue has been fixed with Vista SP1 (build 6001)._
+
 ==How do I check if the driver has been installed correctly?==
 Open the device manager (Start -> Run -> `devmgmt.msc`) and open the 'Sound, video and game controllers' leaf. If the driver has been loaded successfully, [http://cmediadrivers.googlepages.com/devmgmt.png there should be a node] with exactly the name "CMI8738/8768 Wave Audio Device". Also, the 'CMI8738/8768 Control Panel' should load and display version information in the 'About'-tab.
 
