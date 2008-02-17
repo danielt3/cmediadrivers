@@ -1,2 +1,3 @@
 #summary Page for user comments about the driver
 #labels Featured
+Please report bugs in the [http://code.google.com/p/cmediadrivers/issues/list issue tracker].
