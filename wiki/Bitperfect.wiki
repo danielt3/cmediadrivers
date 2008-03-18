@@ -1,5 +1,4 @@
 #summary "bitperfect" explained.
-#labels Featured
 
 = What does "bitperfect" mean, and what do I have to do for bitperfect playback? =
 
