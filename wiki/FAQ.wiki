@@ -2,15 +2,11 @@
 #labels Featured
 =Frequently Asked Questions=
 
-==Why shouldn't I use this driver?==
+==What are the disadvantages of using the driver?==
 If you're a gamer, you won't be a able to enable [http://en.wikipedia.org/wiki/Environmental_audio_extensions EAX] effects - however, regular multi-channel 3D sound is still possible. If you plan to use the analog ports, you should look for another card - the DAC (digital to analog converter) and ADC (analog to digital converter) on the C-Media chip is plain rubbish. If you have a card with a 8768+/8770 chip, you'll lose the Dolby Digital Live feature.
 
-==Why should I use this driver?==
-If you have an amplifier/receiver with digital inputs, it might be a good solution.
-
-Nowadays most consumer market sound devices (Creative, AC97, HDA) alter the sound in one way or the other and thus induce a significant loss of quality - this renders them almost completely unusable for audiophile Hi-Fi enthusiasts. Not so with this driver: lossless bitperfect playback over the external digital ports is fully supported. Also, the sample rate is dynamically adjusted to the current playback source. This may sound simple, but even lots of "professional grade" soundcards lack such capabilities.
-
-This driver is completely bloat-free (no annoying tray icon), small (100kB), fast (due to the lack of sound processing) and stable. Unlike the official drivers, it supports true 16 bit output and dts/AC3 passthrough. Also, it runs on all the major Windows flavors (including the Media Center Edition/MCE and 64 bit systems) and the source code is fully available. Thus it's especially well suited for HTPCs.
+==What are the advantages of the using the driver?==
+This driver is completely bloat-free (no annoying tray icon), small (100kB), fast (due to the lack of sound processing) and stable. It supports [Bitperfect bitperfect] playback and two more sample rates than the official drivers (88.2 kHz, 96 kHz). Unlike the official drivers, it supports true 16 bit output and dts/AC3 passthrough. Also, it runs on all the major Windows flavors (including the Media Center Edition/MCE and 64 bit systems) and the source code is fully available. Thus it's especially well suited for HTPCs.
 
 ==Is the driver compatible with AC97/HDA chips such as C-Media 9738/9739/9880L?==
 No. All USB devices from C-Media are incompatible, too.
