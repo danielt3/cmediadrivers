@@ -1,4 +1,4 @@
-#summary "bitperfect" explained.
+#summary "bitperfect" / "bit-exact" explained.
 
 = What does "bitperfect" mean, and what do I have to do for bitperfect playback? =
 
