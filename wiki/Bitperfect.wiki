@@ -16,8 +16,10 @@ On the software side, there are some more obstacles: in order to play multiple s
   # Applications other than the player mustn't play sounds, otherwise the two output streams will be potentially sample rate converted and mixed by the kmixer.
   # Applications which are using the soundcard for recording have to use the same sample rate as concurrently running applications which are playing sounds - the hardware uses only one clock generator and hence this limitation arises.
 
-Most parts of the sound subsystem of Windows XP/2000 including the kmixer run in the privileged kernel mode, and this poses a security threat because most drivers are badly written with regard to security. The sound subsystem has therefore been completely rewritten in Vista - most parts, including the kmixer, run as a service in user mode. Unfortunately, the kmixer of Vista is not bitperfect anymore.
+Most parts of the sound subsystem of Windows XP/2000 including the kmixer run in the privileged kernel mode, and this poses a security threat because most drivers are badly written with regard to security. The sound subsystem has thus been completely rewritten for Vista so that most parts, including the kmixer, run as a service in user mode. Unfortunately, Vista's reimplementation of the kmixer is not bitperfect anymore.
 
 For some users, it may be therefore necessary to bypass the kernel mixer for bitperfect playback. This can be done in either of these two ways:
   # Kernel streaming - this interface has been implemented to 2000/XP/Vista in response to Steinberg's ASIO. Applications which use this interface instead of DirectX/MME bypass the kernel mixer. In Vista, this interface has been marked "deprecated", and it doesn't work with WaveRT versions of the driver, but it can be used with non-WaveRT versions. There are output plugins for all the popular players, namely [http://www.stevemonks.com/ksplugin/ WinAMP] and [http://www.foobar2000.org/components/index.html foobar2000].
   # WASAPI - a new interface which appeared first in Vista. Applications which utilize its "exclusive mode" have bitperfect access to the soundcard's driver. This works with both the WaveRT and the non-WaveRT version. But so far, there is only one usable player that I'm aware of: XM-Play.
+
+If you have any comments or questions, feel free to drop me a mail or use the comment system below.
