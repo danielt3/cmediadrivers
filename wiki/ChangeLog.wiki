@@ -1,6 +1,9 @@
 #summary Record of changes made to the driver
 #labels Phase-Design,Featured
 
+==1.1.9==
+  * workaround for WASAPI "bug" which caused random noise to be played - thanks, hanssatink
+
 ==1.1.8==
   * the checkboxes corresponding to the speakers in cmicontrol.exe were too small - fixed
   * some other minor fixes 
