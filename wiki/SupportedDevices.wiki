@@ -17,7 +17,7 @@ _All the PCI cards listed below have digital ports (S/PDIF)_
 || AudioExcel || AV511 || No || Yes || No || ||
 || [http://www.auzentech.com/ AuzenTech] || [http://www.auzentech.com/site/products/x-mystique.php HDA X-Mystique 7.1 Gold] || Yes || Yes || No || 8768+ chip; heavily overpriced ||
 || [http://www.club-3d.nl/ Club 3D] || [http://www.club3d.nl/index.php/products/theatron/item/14 Theatron DD] || Yes || Yes || No || 8768+ chip ||
-|| Diablotek || 7.1 Tremor || Yes || No || No || widely available in the US ||
+|| Diablotek || 7.1 Tremor || Yes || No || No || widely available in the USA/Canada ||
 || [http://www.diamondmm.com Diamond] || [http://www.diamondmm.com/XS71DDL.php Xtreme Sound 7.1] || Yes || No || No || 8768+ chip ||
 || Dynex || DX-SC71 7.1 || Yes || No || No || ||
 || [http://formosa21.manufacturer.globalsources.com/si/6008822424696/Homepage.htm Formosa] || [http://formosa21.manufacturer.globalsources.com/si/6008822424696/pdtl/Sound-card/1000776541/5.1-Channel-Sound-Cards.htm SC3000] || Yes || Yes || No || ||
