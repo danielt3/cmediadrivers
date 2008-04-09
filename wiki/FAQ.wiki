@@ -51,7 +51,7 @@ Start PowerDVD, right-click somewhere in the video window and select 'Configurat
 ===Media Player Classic===
 Open Media Player Classic and open the 'Options' window ('View' -> 'Options' or just press the O key). Select the 'Internal Filters' node from the tree on the left and double click the 'AC3' entry in the 'Transform Filters' list. Choose "SPDIF" in the [http://cmediadrivers.googlepages.com/mplayerc.png window] and click "OK".
 ===AC3Filter===
-Click Start, Programs, AC3Filter and then "AC3Filter Config". Check the "Use SPDIF" box.
+Click Start, Programs, AC3Filter and then "AC3Filter Config". Check the [http://cmediadrivers.googlepages.com/ac3filter.png "Use SPDIF"] box.
 ===ffdshow===
 Install the latest version of ffdshow. Click Start, Programs, ffdshow, "Audio decoder configuration". Click "codecs" in the left panel and [http://cmediadrivers.googlepages.com/ffdshow.png select "S/PDIF"] from the drop down menus both for AC3 and dts.
 ===vlc===
