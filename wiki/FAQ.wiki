@@ -53,7 +53,7 @@ Open Media Player Classic and open the 'Options' window ('View' -> 'Options' or 
 ===AC3Filter===
 Click Start, Programs, AC3Filter and then "AC3Filter Config". Check the [http://cmediadrivers.googlepages.com/ac3filter.png "Use SPDIF"] box.
 ===ffdshow===
-Install the latest version of ffdshow. Click Start, Programs, ffdshow, "Audio decoder configuration". Click "codecs" in the left panel and [http://cmediadrivers.googlepages.com/ffdshow.png select "S/PDIF"] from the drop down menus both for AC3 and dts.
+Install the latest version of ffdshow. Click Start, Programs, ffdshow, "Audio decoder configuration". Click "codecs" in the left panel and [http://cmediadrivers.googlepages.com/ac3filter.png select "S/PDIF"] from the drop down menus both for AC3 and dts.
 ===vlc===
 The current version of vlc contains a bug that results in stuttering audio playback when dts/AC3 passthrough is enabled.
 
