@@ -1,3 +1,4 @@
 #summary Page for user comments about the driver
 #labels Featured
-Please report bugs to the [http://code.google.com/p/cmediadrivers/issues/list issue tracker].
+*This page is solely for comments*. If you have a question, drop me a mail or post in this [http://www.hydrogenaudio.org/forums/index.php?showtopic=49350 thread].
+If you've stumbled across a bug, please report it to the [http://code.google.com/p/cmediadrivers/issues/list issue tracker].
