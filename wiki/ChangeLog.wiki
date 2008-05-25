@@ -1,6 +1,10 @@
 #summary Record of changes made to the driver
 #labels Phase-Design,Featured
 
+==1.2.0==
+  * Analog-in mute control for recording was inverted - fixed (thanks, mechman)
+  * CD-in mute control fixed (thanks again, mechman)
+
 ==1.1.9==
   * workaround for WASAPI "bug" which caused random noise to be played - thanks, hanssatink
 
