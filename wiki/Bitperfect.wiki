@@ -20,6 +20,6 @@ Most parts of the sound subsystem of Windows XP/2000 including the kmixer run in
 
 For some users, it may be therefore necessary to bypass the kmixer/audio service for bitperfect playback. This can be done in either of these two ways:
   # Kernel streaming - this interface has been implemented to 2000/XP/Vista in response to Steinberg's ASIO. Applications which use this interface instead of DirectX/MME bypass the kmixer. In Vista, the kernel streaming interface has been marked "deprecated", and it doesn't work with WaveRT versions of the driver, but it can be used with non-WaveRT versions. There are output plugins for all the popular players, namely [http://www.stevemonks.com/ksplugin/ WinAMP] and [http://www.foobar2000.org/components/index.html foobar2000].
-  # WASAPI - a new interface which appeared first in Vista. Applications which utilize its "exclusive mode" have bitperfect access to the soundcard's driver. This works with both the WaveRT and the non-WaveRT version. But so far, there is only one usable player that I'm aware of: XM-Play.
+  # WASAPI - a new interface which appeared first in Vista. Applications which utilize its "exclusive mode" have bitperfect access to the soundcard's driver. This works with both the WaveRT and the non-WaveRT version. Recently, a plugin for foobar2000 has been released: http://www.foobar2000.org/components/
 
 If you have any comments or questions about the above topics, feel free to drop me an email or use the comment system below.
