@@ -86,3 +86,12 @@ Most likely, the "Enable S/PDIF-in recording" box in the second tab of the contr
 
 ==Why does a message box with the title "CreateFile()" and the text "The system cannot find the file specified." pop up when I try to start the control panel applet / cmicontrol.exe?==
 Make sure that the driver has been installed correctly. If you are using Vista, this might be caused by a bug of the operating system. There's a workaround however: close every application which might use the soundcard (browser, winamp etc.), open up the device manager and select the "CMI8738/8768 Wave Audio Device" leaf. Right-click this leaf and select "Uninstall". A window will pop up asking for confirmation - in that window, tick the box "Delete the driver software for this device" and click "OK". Then, click the "Action" menu and select "Scan for hardware changes". If a suitable driver is now found in Vista's driver repository, it will be installed. Repeat the process until Vista can't find a driver anymore, then install the open source driver. The control panel applet should now work.
+
+==After upgrading from the WaveRT version to the non-WaveRT version, sound playback doesn't work anymore. How can I resolve this?==
+This is actually caused by a bug in Vista: the registry entry associated to the driver isn't reset properly during a driver update. This annoyance can be circumvented by doing the procedure which is described in the question above.
+
+==Why doesn't the "Master Mute" control work?==
+The hardware doesn't have such a control. Unfortunately, there is some software which requires the presence of such a switch, so a fake switch has been implemented. In the "official" driver from C-Media, the control is emulated in software.
+
+==Why does playback/recording fail when using WASAPI?==
+WASAPI requires Windows Vista and the WaveRT version. Also, only 65536 bytes respectively samples can be addressed by the hardware so the size of the buffer needs to be lower or equal than this value.
