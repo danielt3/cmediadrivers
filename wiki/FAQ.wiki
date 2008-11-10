@@ -12,21 +12,23 @@ This driver is completely bloat-free (e.g. no annoying tray icon), small (100kB)
 No. All USB devices from C-Media are incompatible, too.
 
 ==What is S/PDIF?==
-S/PDIF is basically a standard for transmitting audio signals digitally without any loss. There are basically two kinds of audio formats which can be sent over S/PDIF:
-  * Stereo, 16 bit: the vast majority of audio CDs use this format and subsequently MP3s/FLACs/... are decoded to this format. A limitation of the S/PDIF is that it can only carry two uncompressed PCM audio channels.
-  * Dolby (AC3)/dts: basically compressed/encoded multi-channel audio. Such signals need to be decoded by your receiver/amplifier. This kind of audio data can be found on many DVDs and subsequently DVD rips, some TV transmissions and even CDs (dts CD). Multi-channel sound from games is NOT encoded to this format - the only option to output the sound is to use the analog ports.
+S/PDIF is basically a standard which defines an interface for transmitting audio signals digitally without loss. This interface basically supports two kinds of formats:
+  * Stereo, 16 bit: this format is used for the vast majority of audio CDs and subsequently MP3s/FLACs/etc.
+  * Dolby (AC3)/dts: this format is basically compressed/encoded multi-channel audio. Such signals are decoded by a receiver/amplifier. This kind of audio data can usually be found in pre-encoded form on many DVDs and subsequently DVD rips, some TV broadcasts and even CDs (dts CD). Multi-channel sound from games and other applications is usually NOT encoded in this format because a proper software encoder requires too much computational effort - the only option to output the sound is to use the analog ports.
 
-The S/PDIF signal can be transmitted optically through TOSLink (LED sender -> plastic optical fiber -> receiver) and/or electrically through RCA/coaxial cable. Optical transmission has the advantage that it's galvanically isolated and that it isn't susceptible to crosstalk (noise induction from other lines), so it's preferable over a coaxial cable in most cases.
+A limitation of the S/PDIF is that it can carry no more than two uncompressed PCM audio channels - multi-channel has to be compressed beforehand. Due to bandwidth constraints, newer formats found on Bluray and HD-DVD media such as Dolby TrueHD or DTS-HD can't also be transmitted over SPDIF.
+
+The S/PDIF signal can be transmitted optically through TOSLink (LED sender -> plastic optical fiber -> receiver) and/or electrically through RCA/coaxial cable. Optical transmission has the advantage that it's galvanically isolated and that it isn't susceptible to crosstalk (noise induction from other lines) and ground loops, so it's preferable over a coaxial cable in most cases.
 
 ==What's the recommended setting for the speaker configuration?==
-First of all, the capability to pass through a multi-channel AC3/dts signal is unaffected by this setting. In short, the "2.0 Stereo" setting is recommended assuming that the soundcard is digitally connected to the receiver/amplifier (TOSLink/coax cable).
+The capability to pass through a multi-channel AC3/dts signal is unaffected by this setting. For having a S/PDIF signal during music playback, the "2.0 Stereo" setting is recommended assuming that the soundcard is digitally connected to the receiver/amplifier (TOSLink/coax cable).
 
-The driver model of Windows has unfortunately quite a few design flaws. A major one is that a driver has no way to determine whether an application wants to play a 5.1 wave sound (e.g. some game) or just plain stereo sound (e.g. WinAMP). If for example the speaker configuration is set to 5.1, all sources are considered to be 5.1 and the digital ports are turned off.
+The driver model of Windows has unfortunately quite a few design flaws. A major one is that a driver has no way to determine whether an application wants to play a 5.1 PCM sound (e.g. some game) or just plain stereo sound (e.g. WinAMP). If the speaker configuration is set to 5.1, all sources are considered to be 5.1 and the digital ports are turned off.
 
 ==What is Dolby Digital Live?==
-Dolby Digital Live is a marketing term coined for the capability to encode multi-channel audio data to AC3/dts on the fly. This is a pretty bad idea because there's quite a nasty quality loss in the process ([http://en.wikipedia.org/wiki/Transcoding transcoding] and pretty low bit rates), it costs a lot of CPU time (resulting in a significant frame rate drop) and it's bug ridden. 
+Dolby Digital Live is a marketing term coined for the capability to encode multi-channel audio data to AC3/dts on the fly. This is a pretty bad idea because there's quite a nasty quality loss in the process ([http://en.wikipedia.org/wiki/Transcoding transcoding] and low bit rates), it requires computational effort (resulting in a significant frame rate drop) and it's still bug ridden.
 
-There are a handful of cmedia chips which support DDL with the help of the official drivers, but unlike NVidia's Soundstorm, it's entirely software based - there is no hardware acceleration. Consequently there's no implementation for Dolby Digtal Live in this driver.
+There are a handful of cmedia chips which support DDL with the help of the official drivers, but unlike NVidia's Soundstorm, it's entirely software based - there is no hardware acceleration. Consequently there's no implementation for Dolby Digital Live in this driver.
 
 ==How do I permanently disable the enforced driver signing in 64 bit edition of Vista?==
 *Please note that the all updates which replace ntoskrnl.exe ([http://support.microsoft.com/kb/932596 KB932596], [http://support.microsoft.com/kb/938979 KB938979], [http://support.microsoft.com/kb/938194 KB938194], [http://support.microsoft.com/kb/941649 KB941649], [http://support.microsoft.com/kb/943078 KB943078]) for the 64 bit edition of Vista [http://cmediadrivers.googlepages.com/gestapo.png break] the DDISABLE_INTEGRITY_CHECKS switch described below: the driver will inevitably fail to load (Code 39).* The only way to run the driver after installing these updates is by [http://www.security-hacks.com/2007/05/07/vista-disable-driver-signing-verification-in-64-bit pressing F8 during boot-up and disabling the enforced driver signing] or by [http://www.ngohq.com/home.php?page=dseo installing this tool].
