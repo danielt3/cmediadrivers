@@ -1,6 +1,9 @@
 #summary Record of changes made to the driver
 #labels Phase-Design,Featured
 
+==1.2.2==
+  * uninstaller fix (thanks, yroggy)
+
 ==1.2.1==
   * implement toggle switch for loop through mode in cmicontrol.exe
   * disable 88.2 kHz / 96 kHz on 8738 chips by default
