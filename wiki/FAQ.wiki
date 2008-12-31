@@ -26,6 +26,13 @@ The capability to pass through a multi-channel AC3/dts signal is unaffected by t
 
 The driver model of Windows has unfortunately quite a few design flaws. A major one is that a driver has no way to determine whether an application wants to play a 5.1 PCM sound (e.g. some game) or just plain stereo sound (e.g. WinAMP). If the speaker configuration is set to 5.1, all sources are considered to be 5.1 and the digital ports are turned off.
 
+==Why do I get only stereo sound when playing DVDs?==
+In all likelihood, there are some configuration issues causing this. Here are some hints:
+  * Verify that the driver has been installed correctly (see below).
+  * Check the settings of your favorite player, and make sure that the audio configuration is set to "passthrough" (see below).
+  * Make sure that there is an ac3/dts track on the DVD you're trying to play and that it has been selected.
+  * Check the connection between the soundcard and your receiver. Both devices must be linked digitally via S/PDIF by either a coax or a TOSLink cable.
+
 ==What is Dolby Digital Live?==
 Dolby Digital Live is a marketing term coined for the capability to encode multi-channel audio data to AC3/dts on the fly. This is a pretty bad idea because there's quite a nasty quality loss in the process ([http://en.wikipedia.org/wiki/Transcoding transcoding] and low bit rates), it requires computational effort (resulting in a significant frame rate drop) and it's still bug ridden.
 
