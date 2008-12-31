@@ -55,8 +55,8 @@ There are two possible causes:
   # The open source driver has caused the crash. If the system won't boot up anymore, press F8 during the boot process and select "safe mode". Then delete the file "cmipci.sys" in your `C:\Windows\System32\Drivers` folder. Reboot and your system should come up just fine. Windows puts a so called "minidump" file in the `C:\Windows\Minidump` directory every time it crashes - you'd be a great help to the development process if you could send these files to me.
 
 
-==How do I enable dts/AC3 passthrough in WinDVD / PowerDVD / Media Player Classic / AC3Filter / ffdshow / vlc?==
-The so called "passthrough mode" enables preencoded dd/dts/wma pro streams to be transmitted to your receiver. Such streams can often be found on DVDs, in AVIs/MKVs or other digital media.
+==How do I enable ac3/dts passthrough in my player software?==
+The so called "passthrough mode" enables preencoded ac3/dts/wma pro streams to be transmitted to your receiver. Such streams can often be found on DVDs, in AVIs/MKVs or other digital media.
 ===WinDVD===
 Start WinDVD, right-click somewhere in the video window and select 'Setup...'. Then go to the [http://cmediadrivers.googlepages.com/windvd.png audio tab] and select "Digital S/PDIF Out to External Processor".
 ===PowerDVD===
