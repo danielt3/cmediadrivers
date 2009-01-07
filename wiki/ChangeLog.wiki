@@ -1,6 +1,10 @@
 #summary Record of changes made to the driver
 #labels Phase-Design,Featured
 
+==1.2.3==
+  * installer checks for administrative rights and warns user when not present
+  * small fix for cmicontrol (thanks, personaldustbin)
+
 ==1.2.2==
   * uninstaller fix (thanks, yroggy)
 
