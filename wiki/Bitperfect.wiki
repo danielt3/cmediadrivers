@@ -1,4 +1,5 @@
 #summary "Bitperfect" / "bit-exact" explained
+#labels Featured
 
 = What is "bitperfect", and what do I have to do for bitperfect playback? =
 
