@@ -44,14 +44,14 @@ _All the PCI cards listed below have digital ports (S/PDIF)_
 || || [http://www.sweex.com/SC015 SC015] || No || Yes || No || ||
 || Techsolo || TC-B71 || Yes || No || No || ||
 || [http://en.terratec.net/ Terratec] || [http://sounden.terratec.net/modules.php?op=modload&name=News&file=article&sid=147 Aureon 5.1 Fun] || Yes || No || No || ||
-|| || [http://sounden.terratec.net/modules.php?op=modload&name=News&file=article&sid=222 Aureon 5.1 PCI] || Yes || No || No || ||
+|| || [http://sounden.terratec.net/modules.php?op=modload&name=News&file=article&sid=222 Aureon 5.1 PCI] || Yes || No || No || Widely available in Germany ||
 || || [http://sounden.terratec.net/modules.php?op=modload&name=News&file=article&sid=237 Aureon 7.1 PCI] || Yes || No || No || 8768+ chip ||
-|| [http://www.trust.com Trust] || [http://www.trust.com/products/product_detail.aspx?item=12949 SC-5200] || No || Yes || No || ||
-|| || [http://www.trust.com/products/product_detail.aspx?item=12950 SC-5250 (Sound Expert 514DX)] || Yes || Yes || No || Additional bracket for digital ports ||
+|| [http://www.trust.com Trust] || [http://www.trust.com/products/product_detail.aspx?item=12949 SC-5200] || No || Yes || No || Widely available in the UK. ||
+|| || [http://www.trust.com/products/product_detail.aspx?item=12950 SC-5250 (Sound Expert 514DX)] || Yes || Yes || No || Additional bracket for digital ports; widely available in the UK ||
 || || SC-7200 (Sound Expert 714DX) || No || Yes || No || ||
 || || [http://www.trust.com/products/product_detail.aspx?item=15377 SC-7600] || Yes || No || No || ||
-|| [http://www.turtlebeach.com Turtle Beach] || [http://www.turtlebeach.com/products/mtgoddl/home.aspx Montego DDL 7.1] || Yes || No || No || 8768+ chip ||
-|| || [http://www.turtlebeach.com/products/riviera/home.aspx Riviera 5.1] || Yes || No || No || ||
+|| [http://www.turtlebeach.com Turtle Beach] || [http://www.tutlebeach.com/products/mtgoddl/home.aspx Montego DDL 7.1] || Yes || No || No || 8768+ chip ||
+|| || [http://www.turtlebeach.com/products/riviera/home.aspx Riviera 5.1] || Yes || No || No || Widely available in the USA ||
 || [http://www.typhoon.de/en/kat.php Typhoon] || [http://www.typhoon.de/en/art.php?p=1386 Acoustic Six 5+1] || Yes || Yes || No || Additional bracket for digital ports ||
 || [http://www.ultron.de/v2index.php?l=en Ultron] || [http://www.ultron.de/v2prod.php?WGType=Soundkarten&artnr=8035&l=en OctoSound 7.1] || Yes || No || No || ||
 || [http://www.z-cyber.net/ Z-Cyber/Zoltrix] || [http://www.z-cyber.net/Products/8738MX%2B.htm Nightingale Pro 6] || Yes || Yes || No || Additional bracket for digital ports ||
