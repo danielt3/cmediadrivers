@@ -32,6 +32,7 @@ _All the PCI cards listed below have digital ports (S/PDIF)_
 || [http://www.ivmm.com/index.htm InnoAX] || [http://www.ivmm.com/innoax/products/audio_extreme.htm Audio Extreme 5.1] || Yes || Yes || No || Additional bracket for digital ports ||
 || Leadtek || Winfast 6XSound || Yes || Yes || No || Additional bracket for digital ports||
 || [http://www.m-audio.com/ M-Audio/Midiman] || DiO 2448 || Yes || Yes || No || ||
+|| [http://www.manhattan-products.com/ Manhattan] || [en-US/products/5851-pci-sound-card 7.1 PCI Sound Card] || No || Yes || No || ||
 || [http://www.mediatek.com.tw/ Mediatek] || [http://www.mediatek.com.tw/eng/03_product/oemodm/sy-mx-6d/index.htm SY-MX-6D] || Yes || Yes || No || Additional bracket for digital ports ||
 || || [http://www.mediatek.com.tw/eng/03_product/oemodm/sy_8768/index.htm SY-8768] || Yes || No || No || ||
 || [http://www.philips.com Philips] || [http://www.p4c.philips.com/cgi-bin/dcbint/cpindex.pl?scy=GB&slg=ENG&sct=SOUNDCARDS_SU_GB_CONSUMER&cat=PC_AUDIO_CA_GB_CONSUMER&session=20070501170850_62.214.235.54&grp=MONITORS_PC_PERIPHERALS_GR_GB_CONSUMER&ctn=PSC604/00&mid=Link_GetStarted&hlt=Link_GetStarted PSC604/00 (Dynamic Edge 4.1)] || No || Yes || No || ||
