@@ -38,8 +38,8 @@ Dolby Digital Live is a marketing term coined for the capability to encode multi
 
 There are a handful of cmedia chips which support DDL with the help of the official drivers, but unlike NVidia's Soundstorm, it's entirely software based - there is no hardware acceleration. Consequently there's no implementation for Dolby Digital Live in this driver.
 
-==How do I permanently disable the enforced driver signing in 64 bit edition of Vista?==
-Currently, the only way to run the driver after installing these updates is by [http://www.security-hacks.com/2007/05/07/vista-disable-driver-signing-verification-in-64-bit pressing F8 during boot-up and disabling the enforced driver signing] or by [http://www.ngohq.com/home.php?page=dseo installing the linked tool]. You have to [http://sites.google.com/site/dogber1/Home/dseo1.png enable test signing] with the tool. Each time you've installed the driver, it needs to be [http://sites.google.com/site/dogber1/Home/dseo3.png test-signed] after the installation.
+==How do I install the driver in 64 bit edition of Vista?==
+Currently, the only way to run the driver _*after*_ installing these updates is by [http://www.codeproject.com/KB/vista/vista_x64.aspx#Driver_Signing pressing F8 during boot-up and disabling the enforced driver signing] or by [http://www.ngohq.com/home.php?page=dseo installing the linked tool]. You have to [http://sites.google.com/site/dogber1/Home/dseo1.png enable test signing] with the tool. Each time you've installed the driver, it needs to be [http://sites.google.com/site/dogber1/Home/dseo3.png test-signed] after the installation.
 
 
 ==I tried to load the driver, but my system crashed. How can I recover?==
