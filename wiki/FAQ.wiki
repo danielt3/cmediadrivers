@@ -7,7 +7,7 @@
 If you're a gamer, you won't be a able to enable [http://en.wikipedia.org/wiki/Environmental_audio_extensions EAX] effects - however, regular multi-channel 3D sound is still possible. If you plan to use the analog ports, you should look for another card - the analog parts (ADC, DAC) of the C-Media chip are pretty bad. If you have a card with a 8768+/8770 chip, you'll lose the Dolby Digital Live feature.
 
 ==What are the advantages of the using the driver?==
-This driver is completely bloat-free (e.g. no annoying tray icon), small (100kB), fast (due to the lack of sound processing) and stable. Features not seen in all the official drivers such as true 16 bit output and correct *dts/AC3 passthrough* over the digital ports (coaxial, TOSLink) are fully implemented. Furthermore, it supports [Bitperfect bitperfect] playback and two additional sample rates (88.2 kHz, 96 kHz).  The driver runs on all the major Windows flavors (including the Media Center Edition/MCE and 64 bit systems) and the source code is fully available. Thus it's especially well suited for HTPCs.
+This driver is completely bloat-free (e.g. no annoying tray icon), small (100kB), fast (due to the lack of sound processing) and stable. Features not seen in all the official drivers such as true 16 bit output and correct *ac3/dts passthrough* over the digital ports (coaxial, TOSLink) are fully implemented. Furthermore, it supports [Bitperfect bitperfect] playback and two additional sample rates (88.2 kHz, 96 kHz).  The driver runs on all the major Windows flavors (including the Media Center Edition/MCE and 64 bit systems) and the source code is fully available. Thus it's especially well suited for HTPCs.
 
 ==Is the driver compatible with AC97/HDA chips such as C-Media 9738/9739/9880L?==
 No. All USB devices from C-Media are incompatible, too.
@@ -61,9 +61,9 @@ Click Start, Programs, AC3Filter and then "AC3Filter Config". Check the [http://
 ===ffdshow===
 Install the latest version of ffdshow. Click Start, Programs, ffdshow, "Audio decoder configuration". Click "codecs" in the left panel and [http://sites.google.com/site/dogber1/Home/ffdshow.png select "S/PDIF"] from the drop down menus both for AC3 and dts.
 ===vlc===
-vlc contains a bug that results in stuttering audio playback when dts/AC3 passthrough is enabled. In the most current version of vlc, there is a way to circumvent this bug: set the [http://sites.google.com/site/dogber1/Home/vlc.png output module] to "WaveOut", save the settings and restart vlc.
+vlc contains a bug that results in stuttering audio playback when ac3/dts passthrough is enabled. In the most current version of vlc, there is a way to circumvent this bug: set the [http://sites.google.com/site/dogber1/Home/vlc.png output module] to "WaveOut", save the settings and restart vlc.
 
-==How do I enable dts/AC3 passthrough in Windows Vista x64?==
+==How do I enable ac3/dts passthrough in Windows Vista x64?==
 If you are using the WaveRT version of the driver, it should work out of the box with the standard x86 codecs. If you're using the non-WaveRT version, you need to upgrade to the x64 versions of both the player software and the codecs. When using x86 codecs / software, there are problems with passthrough which are caused by a bug in Vista's x86 compatibility layer. [http://sourceforge.net/project/showfiles.php?group_id=173941&package_id=199416&release_id=569930 Here] are x64 builds of ffdshow, and x64 binaries for Media Player Classic are available [http://tibrium.neuf.fr/ here].
 
 _Update: This issue has been fixed with Vista SP1 (build 6001)._
