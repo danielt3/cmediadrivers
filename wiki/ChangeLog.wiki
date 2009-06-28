@@ -1,5 +1,8 @@
 #summary Record of changes made to the driver
 #labels Phase-Design,Featured
+==1.2.5==
+  * bugfix for cmicontrol (thanks, ian)
+
 ==1.2.4==
   * manifest for installer (thanks, martin)
   * half-assed workaround for WaveRT version (DirectSound error code 88780096)
