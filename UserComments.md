@@ -1,0 +1,2 @@
+**This page is intended solely for comments**. If you have a question, drop me an email (![http://sites.google.com/site/dogber1/Home/email.png](http://sites.google.com/site/dogber1/Home/email.png) , the last character of the first part is the  numeral one) or post in this [thread](http://www.hydrogenaudio.org/forums/index.php?showtopic=49350).
+If you've stumbled across a bug, please report it to the [issue tracker](http://code.google.com/p/cmediadrivers/issues/list?can=1).
